@@ -1235,7 +1235,7 @@ static void DrawHeaderText(void)
 static void DrawOptionMenuTexts(void)
 {
     u8 i;
-    u8 items = NULL;
+    u8 items;
     const u8* const* menu = NULL;
 
     switch (sCurrPage){
